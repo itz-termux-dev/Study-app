@@ -4,7 +4,6 @@ package.name = studyapp
 package.domain = org.offlineai
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
-source.include_patterns = piper/*, llama.cpp/build/bin/*
 version = 1.0.0
 requirements = python3,kivy
 orientation = portrait
