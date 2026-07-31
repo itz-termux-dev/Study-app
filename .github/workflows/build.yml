@@ -27,11 +27,5 @@ jobs:
 
     - name: Build APK with Buildozer
       run: |
-        printf 'y\ny\ny\ny\ny\ny\ny\n' | buildozer --warn-on-root false android debug
-
-    - name: Upload APK Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: OfflineStudyApp-APK
-        path: bin/*.apk
+        buildozer -v android debug
 
