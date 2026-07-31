@@ -1,0 +1,7 @@
+models/
+*.gguf
+*.onnx
+*.wav
+*.apk
+bin/
+.buildozer/
