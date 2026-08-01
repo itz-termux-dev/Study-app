@@ -5,7 +5,7 @@ package.domain = org.offlineai
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 version = 1.0.0
-requirements = python3,kivy
+requirements = python3,kivy,requests,pillow
 orientation = portrait
 fullscreen = 0
 
